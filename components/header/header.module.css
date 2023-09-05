@@ -1,0 +1,34 @@
+.header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-bottom: thick double var(--purple);;
+}
+
+.menu {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.item {
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+	margin: 0 18px 0 0;
+	color: var(--black);
+	font-weight: 300;
+}
+
+.item:visited {
+	color: var(--black);
+}
+
+.item:hover {
+	color: var(--light-black);
+}
+
+.image {
+	margin: 0 24px 0 0;
+}
